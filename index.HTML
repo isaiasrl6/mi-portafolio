@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Isaías Rosario - Portafolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-white text-[#111827] dark:bg-[#111827] dark:text-white">
+
+  <!-- HERO modern style -->
+  <section class="min-h-screen flex flex-col md:flex-row">
+    <!-- Lado rojo con texto -->
+    <div class="bg-red-500 text-white flex-1 flex flex-col justify-center items-start p-10 md:p-20">
+      <h1 class="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">
+        Isaías Rosario
+      </h1>
+      <h2 class="text-2xl md:text-3xl font-semibold mb-6">
+        Científico de Datos · Full Stack Developer · Especialista BI
+      </h2>
+      <p class="text-lg max-w-md mb-8">
+        Transformo datos en decisiones y soluciones digitales modernas para empresas en evolución.
+      </p>
+      <div class="flex gap-4">
+        <a href="#contacto" class="bg-white text-red-500 px-6 py-2 rounded-md font-semibold hover:bg-gray-100 transition">
+          Contactar
+        </a>
+        <a href="cv.pdf" download class="border border-white px-6 py-2 rounded-md font-semibold hover:bg-white hover:text-red-500 transition">
+            Descargar CV
+          </a>                      
+      </div>
+    </div>
+
+    <!-- Lado blanco con foto -->
+    <div class="bg-white dark:bg-[#111827] flex-1 flex justify-center items-center p-10 md:p-20">
+      <img 
+        src="isaias-removebg-preview.png" 
+        alt="Isaías Rosario"
+        class="max-w-xs md:max-w-sm lg:max-w-md w-full h-auto object-contain"
+      />
+    </div>
+  </section>
+
+  <!-- SOBRE MÍ -->
+  <section id="sobre-mi" class="bg-white dark:bg-[#111827] py-20 px-6 max-w-6xl mx-auto">
+    <h3 class="text-3xl font-bold text-red-500 mb-4">Sobre mí</h3>
+    <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+      Soy un profesional apasionado por la ciencia de datos, el desarrollo de software y la inteligencia de negocios.
+      Me especializo en crear soluciones tecnológicas que mejoran la toma de decisiones usando datos reales,
+      diseño limpio y automatización. Mi enfoque combina precisión analítica con visión estratégica y creatividad técnica.
+    </p>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section id="proyectos" class="bg-gray-100 dark:bg-[#1f2937] py-20 px-6">
+    <div class="max-w-6xl mx-auto">
+      <h3 class="text-3xl font-bold text-red-500 mb-10 text-center">Proyectos destacados</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white dark:bg-[#2c2f36] p-6 rounded-xl shadow-md hover:shadow-2xl transform hover:-translate-y-2 hover:scale-105 transition duration-300 ease-in-out">
+          <h4 class="text-xl font-semibold mb-2">HealthRiskAI</h4>
+          <p class="text-sm text-gray-700 dark:text-gray-300">Sistema de predicción de riesgo en salud con IA. Utiliza modelos como Random Forest y datos clínicos para apoyar decisiones médicas preventivas.</p>
+          <a href="https://github.com/isaiasrl6/HealthRiskAI" target="_blank" class="text-red-500 mt-2 inline-block underline text-sm">Ver en GitHub</a>
+        </div>
+        <div class="bg-white dark:bg-[#2c2f36] p-6 rounded-xl shadow-md hover:shadow-2xl transform hover:-translate-y-2 hover:scale-105 transition duration-300 ease-in-out">
+          <h4 class="text-xl font-semibold mb-2">Segmentación de Clientes</h4>
+          <p class="text-sm text-gray-700 dark:text-gray-300">Modelo RFM + K-Means para segmentar clientes bancarios, visualizado en Power BI y dashboard interactivo en Streamlit.</p>
+          <a href="https://github.com/isaiasrl6/ProyectoSegmentacionClientes" target="_blank" class="text-red-500 mt-2 inline-block underline text-sm">Ver en GitHub</a>
+        </div>
+        <div class="bg-white dark:bg-[#2c2f36] p-6 rounded-xl shadow-md hover:shadow-2xl transform hover:-translate-y-2 hover:scale-105 transition duration-300 ease-in-out">
+          <h4 class="text-xl font-semibold mb-2">Pruebas y Calidad de Datos</h4>
+          <p class="text-sm text-gray-700 dark:text-gray-300">Scripts en Python y Great Expectations para automatizar validaciones, depuración y control de calidad de datos antes de su análisis.</p>
+          <a href="https://github.com/isaiasrl6/pruebas" target="_blank" class="text-red-500 mt-2 inline-block underline text-sm">Ver en GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- SERVICIOS -->
+<section id="servicios" class="bg-white dark:bg-[#111827] py-20 px-6">
+    <div class="max-w-6xl mx-auto text-center">
+      <h3 class="text-3xl font-bold text-red-500 mb-10">Servicios que ofrezco</h3>
+      <div class="grid md:grid-cols-3 gap-8 text-left">
+        
+        <!-- Servicio 1 -->
+        <div class="bg-white dark:bg-[#2c2f36] p-6 rounded-xl shadow-mdtransform hover:-translate-y-2 hover:scale-105 transition duration-300 ease-in-out">
+          <h4 class="text-xl font-semibold mb-2">Desarrollo de Web Apps</h4>
+          <p class="text-gray-700 dark:text-gray-300 text-sm">
+            Aplicaciones modernas y escalables usando tecnologías como React, Node.js y bases de datos SQL/NoSQL.
+          </p>
+        </div>
+        
+        <!-- Servicio 2 -->
+        <div class="bg-white dark:bg-[#2c2f36] p-6 rounded-xl shadow-mdtransform hover:-translate-y-2 hover:scale-105 transition duration-300 ease-in-out">
+          <h4 class="text-xl font-semibold mb-2">Aplicaciones Móviles</h4>
+          <p class="text-gray-700 dark:text-gray-300 text-sm">
+            Desarrollo de apps híbridas con experiencia fluida para Android e iOS mediante tecnologías como React Native o Flutter.
+          </p>
+        </div>
+  
+        <!-- Servicio 3 -->
+        <div class="bg-white dark:bg-[#2c2f36] p-6 rounded-xl shadow-mdtransform hover:-translate-y-2 hover:scale-105 transition duration-300 ease-in-out">
+          <h4 class="text-xl font-semibold mb-2">Páginas Web Profesionales</h4>
+          <p class="text-gray-700 dark:text-gray-300 text-sm">
+            Diseño y desarrollo de sitios web modernos, responsivos y optimizados para SEO y performance.
+          </p>
+        </div>
+  
+        <!-- Servicio 4 -->
+        <div class="bg-white dark:bg-[#2c2f36] p-6 rounded-xl shadow-mdtransform hover:-translate-y-2 hover:scale-105 transition duration-300 ease-in-out">
+          <h4 class="text-xl font-semibold mb-2">Automatización de Procesos</h4>
+          <p class="text-gray-700 dark:text-gray-300 text-sm">
+            Digitalización de tareas repetitivas y flujos internos usando bots, scripts, APIs y RPA para aumentar eficiencia.
+          </p>
+        </div>
+  
+        <!-- Servicio 5 -->
+        <div class="bg-white dark:bg-[#2c2f36] p-6 rounded-xl shadow-mdtransform hover:-translate-y-2 hover:scale-105 transition duration-300 ease-in-out">
+          <h4 class="text-xl font-semibold mb-2">Reportería & Dashboards</h4>
+          <p class="text-gray-700 dark:text-gray-300 text-sm">
+            Desarrollo de dashboards en Power BI, Streamlit o web para toma de decisiones basada en datos reales y actualizados.
+          </p>
+        </div>
+  
+        <!-- Servicio 6 -->
+        <div class="bg-white dark:bg-[#2c2f36] p-6 rounded-xl shadow-mdtransform hover:-translate-y-2 hover:scale-105 transition duration-300 ease-in-out">
+          <h4 class="text-xl font-semibold mb-2">Manejo de Datos</h4>
+          <p class="text-gray-700 dark:text-gray-300 text-sm">
+            Modelado, limpieza y análisis de datos para soluciones de negocios, predicciones y visualizaciones efectivas.
+          </p>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+  <!-- CONTACTO -->
+  <section id="contacto" class="bg-gray-100 dark:bg-[#1f2937] py-20 px-6">
+    <h3 class="text-3xl font-bold text-red-500 mb-6">Contacto</h3>
+    <ul class="text-lg space-y-2 text-gray-800 dark:text-gray-300">
+      <li>📧 <a href="mailto:rosarioisaias06@gmail.com" class="text-red-500 underline">rosarioisaias06@gmail.com</a></li>
+      <li>🔗 <a href="https://linkedin.com/in/isaiasrosario" target="_blank" class="text-red-500 underline">linkedin.com/in/isaiasrosario</a></li>
+      <li>💻 <a href="https://github.com/IsaiasRosario" target="_blank" class="text-red-500 underline">github.com/IsaiasRosario</a></li>
+    </ul>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-black text-white text-center py-4 dark:bg-[#000000]">
+    © <span id="year"></span> Isaías Rosario. Todos los derechos reservados.
+  </footer>
+
+  <!-- JS -->
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
